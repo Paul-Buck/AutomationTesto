@@ -51,7 +51,7 @@ public class ChromeTest {
     @Then("^Im select the first result, and get taken to the Pink Floyd page$")
     public void im_select_the_first_result() throws Throwable {
 
-        driver.findElement(By.className("rs_touch")).click();
+        driver.findElement(By.className("rs_touc")).click();
 
 
     }
